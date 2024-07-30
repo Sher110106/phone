@@ -9,6 +9,7 @@ import Model from "./components/Model.jsx";
 import Features from "./components/Features.jsx";
 
 import * as Sentry from "@sentry/react";
+import HowItWorks from "./components/HowItWorks.jsx";
 
 function App() {
   const [count, setCount] = useState(0)
@@ -20,6 +21,7 @@ function App() {
      <Highlights/>
      <Model/>
      <Features/>
+     <HowItWorks/>
 
  </main>
   )
