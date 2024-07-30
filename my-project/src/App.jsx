@@ -5,6 +5,7 @@ import './App.css'
 import Navbar from "./components/Navbar.jsx";
 import Hero from "./components/Hero.jsx";
 import Highlights from "./components/Highlights.jsx";
+import Model from "./components/Model.jsx";
 
 function App() {
   const [count, setCount] = useState(0)
@@ -14,6 +15,7 @@ function App() {
      <Navbar/>
      <Hero/>
      <Highlights/>
+     <Model/>
 
  </main>
   )
